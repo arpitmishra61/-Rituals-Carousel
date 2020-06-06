@@ -1,0 +1,100 @@
+.profiles{
+    display: flex;
+    padding-left: 60px; 
+  height: 80vh;
+    align-items: center;
+    padding-right: 0px;
+    justify-content: space-evenly;
+    position: relative;
+user-select: none;
+}
+
+.profiles .content {
+    flex-basis: 20%;
+     color: rgb(29, 29, 90);
+
+    
+}
+
+.profiles .caption{
+    font-size: 30px;
+   
+    font-weight: bolder;
+    margin-top: -20px;
+    line-height: 1.5em;
+}
+.profiles .profile-images{
+    display: flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-images .img-container{
+    width:30%;
+    height: 50vh;
+    
+}
+ .profile-images .img-container-0{
+     padding-top: 10vh;
+     width: 35%;
+       height: 60vh;
+
+ }
+
+ .profile-images .img-container-2{
+     margin-right: -3vw;
+ }
+.profile-images img{
+    
+    width:100%;
+    height: inherit;
+}
+
+
+.profiles .forward-button, .profiles .backward-button{
+    position: absolute;
+    bottom: 14vh;
+   
+}
+
+.profiles .forward-button{
+    right:17.6vw;
+    padding: 20px;
+    background-color: white;
+    
+
+}
+
+.profiles .backward-button{
+    right:22.6vw;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.profiles .backward-button:hover, .profiles .forward-button:hover {
+    zoom: 1.01;
+    background-color: rgb(251, 251, 252);
+    cursor: pointer;
+    
+}
+
+
+ .playArrow{
+     position: absolute;
+     bottom: 10vh;
+     left:30vw;
+     z-index:3;
+     color: white;
+     border:2px solid white;
+     border-radius: 50%;
+     box-shadow: 1px 1px white;
+ }
+ .playArrow:hover{
+     transform: scale(1.2);
+     cursor: pointer;
+ }
+  
+
+
